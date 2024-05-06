@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\bin\Debug\KptcLibrary.dll
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\bin\Debug\KptcLibrary.pdb
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\obj\Debug\KptcLibrary.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\obj\Debug\KptcLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\obj\Debug\KptcLibrary.dll
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\KptcLibrary\obj\Debug\KptcLibrary.pdb
