@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAAAAAAAAAAAAM
 {
-    internal class Singleton
+    public static class Singleton
     {
+        public static readonly daaamnEntities DB = new daaamnEntities();
     }
 }

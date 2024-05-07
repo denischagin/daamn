@@ -24,5 +24,14 @@ namespace DAAAAAAAAAAAAM
         {
             InitializeComponent();
         }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Сохранить эту хуйню?", "Сохранитьл", MessageBoxButton.YesNo);
+
+            if (result != MessageBoxResult.Yes) return;
+
+            Singleton.DB.SaveChanges();
+        }
     }
 }

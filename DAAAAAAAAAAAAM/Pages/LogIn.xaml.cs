@@ -27,6 +27,12 @@ namespace DAAAAAAAAAAAAM.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            User user = Singleton.DB.User.FirstOrDefault(u => u.Username == username.Text && u.Password == password.Password);
+            if (user == null)
+            {
+                MessageBox.Show("Иди нахуй");
+                return;
+            }
             MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
             mainWindow.Frame.Navigate(new Test());
         }

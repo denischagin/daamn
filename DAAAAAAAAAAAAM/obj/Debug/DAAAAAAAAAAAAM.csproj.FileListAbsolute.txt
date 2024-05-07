@@ -21,3 +21,8 @@ C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\DAAAAAAAAAAAAM.csproj.CopyComplete
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Test.g.cs
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Test.baml
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\DAAAAAAAAAAAAM_Content.g.cs
