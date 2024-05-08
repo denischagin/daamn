@@ -33,8 +33,29 @@ namespace DAAAAAAAAAAAAM.Pages
                 MessageBox.Show("Иди нахуй");
                 return;
             }
+
             MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
-            mainWindow.Frame.Navigate(new Test());
+
+
+            if (user.Role_ID == 1)
+            {
+                mainWindow.Frame.Navigate(new Test());
+                return;
+            }
+
+            if (user.Role_ID == 2)
+            {
+                mainWindow.Frame.Navigate(new Test2());
+                return;
+            }
+
+            MessageBox.Show("Хз что за роль");
+        }
+
+        private void Registration_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window  = Window.GetWindow(this) as MainWindow;
+            window.Frame.Navigate(new Registration());
         }
     }
 }

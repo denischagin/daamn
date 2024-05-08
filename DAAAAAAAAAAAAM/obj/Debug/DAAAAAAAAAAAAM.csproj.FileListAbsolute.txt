@@ -26,3 +26,7 @@ C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.xml
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\DAAAAAAAAAAAAM_Content.g.cs
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Test2.g.cs
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Test2.baml
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Registration.g.cs
+C:\Users\Администратор\Desktop\daamn\DAAAAAAAAAAAAM\DAAAAAAAAAAAAM\obj\Debug\Pages\Registration.baml

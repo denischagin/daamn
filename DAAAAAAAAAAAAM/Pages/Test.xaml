@@ -12,14 +12,16 @@
       >
 
     <Grid>
-        <Label Content="Хуйня" HorizontalAlignment="Left" Margin="105,40,0,0" VerticalAlignment="Top"/>
-        <DockPanel>
-            <Button DockPanel.Dock="Top" Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
-        </DockPanel>
-        <DockPanel Margin="0,25,0,0">
-            <DataGrid x:Name="table" Height="365" />
-        </DockPanel>
+        <StackPanel>
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                <Button Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
+                <Label Content="Фильтр" />
+                <TextBox x:Name="filter" Width="300" TextChanged="TextBox_TextChanged" />
+            </StackPanel>
 
+            <DataGrid x:Name="table"  Height="400"/>
 
+            <Button Content="Изменить" Click="edit_Click" />
+        </StackPanel>
     </Grid>
 </Page>

@@ -33,7 +33,31 @@ namespace DAAAAAAAAAAAAM.Pages
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            table.ItemsSource = Singleton.DB.User.ToList();
+            Singleton.DB.User.ToList();
+            table.ItemsSource = Singleton.DB.User.Local;
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (String.IsNullOrEmpty(filter.Text))
+            {
+                table.ItemsSource = Singleton.DB.User.ToList();
+                return;
+            }
+
+            string lowerText = filter.Text.ToLower();
+
+            table.ItemsSource = Singleton.DB.User.Where(u => u.Username.ToLower().Contains(lowerText) || u.Password.ToLower().Contains(lowerText)).ToList();
+        }
+
+        private void edit_Click(object sender, RoutedEventArgs e)
+        {
+            if (table.SelectedItem == null)
+            {
+                MessageBox.Show("Выбери пользователя для редактирования");
+                return;
+            }
+
         }
     }
 }
